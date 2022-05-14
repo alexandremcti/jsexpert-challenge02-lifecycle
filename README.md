@@ -1,6 +1,7 @@
+# ALexandre Magno
 # Story: Entendendo conceitos fundamentais do ciclo de vida do Javascript
 
-A idéia é implementar códigos pensando no comportamento do Javascript com base no `JS Expect - Módulo 03`, que trata de `Conceitos fundamentais sobre o ciclo de vida do Javascript`. 
+A idéia é implementar códigos pensando no comportamento do Javascript com base no `JS Expect - Módulo 03`, que trata de `Conceitos fundamentais sobre o ciclo de vida do Javascript`.
 
 Baseando-se nos testes automatizados já criados neste repo - similares aos feitos no [Desafio Anterior](https://github.com/training-erickwendel/jsexpert-exercicio01-pokeapi) -, implemente o código em cada uma das services existentes.
 
@@ -10,7 +11,7 @@ Baseando-se nos testes automatizados já criados neste repo - similares aos feit
 1. Implemente os métodos marcados com um `//@TODO: comment`  em cada uma das respectivas services,
 na ordem que preferir:
 
-* [ ] _services/StatementsService_
+* [x] _services/StatementsService_
 * [ ] _services/WeirdMathService_
 * [ ] _services/ReferencesService_
 * [ ] _services/ObjectMethodsService_
@@ -74,7 +75,7 @@ project
   * [ ] Deve entender tipos de referência e Mutability vs Immutability, e implementar soluções copiando ou não referências de objetos.
 
 - StatementsService
-  * [ ] Deve entender o uso de conditional statements no Javascript e seus respectivos retornos em diferentes cenários.
+  * [x] Deve entender o uso de conditional statements no Javascript e seus respectivos retornos em diferentes cenários.
 
 - WeirdMathService
   * [ ] Deve entender o fluxo de vida do Javascript e as coerções implícitas que ocorrem em expressões matemáticas.

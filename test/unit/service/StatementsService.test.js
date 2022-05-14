@@ -11,7 +11,7 @@ describe('StatementsService Suite Tests', () => {
     service = new StatementsService();
   });
 
-  it('should return expected value wafter checking a conditional statement', () => {
+  it('should return expected value after checking a conditional statement', () => {
     const a = 'just a random string';
     const b = 123456;
     const expected = 'just a random string';
