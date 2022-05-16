@@ -1,21 +1,20 @@
 class ReferencesService {
   getCounterCopyingReferences(object) {
-    // TODO: assing object to a new variable and return it.
-    return null;
+    return object;
   }
 
   getCounterWithoutCopyingReferences(object) {
-    // TODO: assing object to a new variable and return it.
-    return null;
+    return Object.create(object);
   }
 
-  /*
-  // @TIP: if you want to do the extra sub-challenge, uncomment and implement the following function:
   getCounterWithoutDeepCopyingReferences(object) {
-    // TODO: assing object to a new variable and return it.
-    return null;
+    const newObject = {};
+    const keys = Object.keys(object);
+    for (const key of keys) {
+      newObject[key] = Object.create(object[key]);
+    }
+    return newObject;
   }
-  */
 }
 
 module.exports = ReferencesService;

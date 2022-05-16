@@ -12,7 +12,7 @@ Baseando-se nos testes automatizados já criados neste repo - similares aos feit
 na ordem que preferir:
 
 * [x] _services/StatementsService_
-* [ ] _services/WeirdMathService_
+* [x] _services/WeirdMathService_
 * [ ] _services/ReferencesService_
 * [ ] _services/ObjectMethodsService_
 
@@ -78,7 +78,7 @@ project
   * [x] Deve entender o uso de conditional statements no Javascript e seus respectivos retornos em diferentes cenários.
 
 - WeirdMathService
-  * [ ] Deve entender o fluxo de vida do Javascript e as coerções implícitas que ocorrem em expressões matemáticas.
+  * [x] Deve entender o fluxo de vida do Javascript e as coerções implícitas que ocorrem em expressões matemáticas.
 
 ## Submissão
 

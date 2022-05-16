@@ -4,7 +4,7 @@ const { expect } = require('chai');
 
 const ReferencesService = require('../../../src/service/ReferencesService');
 
-describe('ReferencesService Suite Tests', () => {
+describe.only('ReferencesService Suite Tests', () => {
   let service = {};
 
   before(() => {
@@ -41,8 +41,7 @@ describe('ReferencesService Suite Tests', () => {
     expect(b.object.counter).to.be.eql(1);
   });
 
-  // @TIP: remove the following `.skip` if you want to do the extra sub-challenge :)
-  it.skip('should return a counter without modifying the original instance (optional sub-challenge)', () => {
+  it('should return a counter without modifying the original instance (optional sub-challenge)', () => {
     const a = { object: { counter: 0 } };
     const b = service.getCounterWithoutDeepCopyingReferences(a);
 

@@ -4,7 +4,7 @@ const { expect } = require('chai');
 
 const WeirdMathService = require('../../../src/service/WeirdMathService');
 
-describe.only('WeirdMathService Suite Tests', () => {
+describe('WeirdMathService Suite Tests', () => {
   let service = {};
 
   before(() => {
