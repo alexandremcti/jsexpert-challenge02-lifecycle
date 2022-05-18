@@ -9,7 +9,7 @@ const MOCK_OBJECT = {
   age: 21,
 };
 
-describe('ObjectMethodsService Suite Tests', () => {
+describe.only('ObjectMethodsService Suite Tests', () => {
   let service = {};
 
   before(() => {

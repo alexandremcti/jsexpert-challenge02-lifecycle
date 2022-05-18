@@ -13,7 +13,7 @@ na ordem que preferir:
 
 * [x] _services/StatementsService_
 * [x] _services/WeirdMathService_
-* [ ] _services/ReferencesService_
+* [x] _services/ReferencesService_
 * [ ] _services/ObjectMethodsService_
 
 > Nota: Para saber quais os comportamentos esperados de cada método, verifique os testes unitários de cada service.
@@ -72,7 +72,7 @@ project
   * [ ] Deve entender Coerção de tipos e Objects Lifecycle e implementar soluções usando `valueOf`, `toString` e `[Symbol.toPrimitive]`.
 
 - ReferencesService
-  * [ ] Deve entender tipos de referência e Mutability vs Immutability, e implementar soluções copiando ou não referências de objetos.
+  * [x] Deve entender tipos de referência e Mutability vs Immutability, e implementar soluções copiando ou não referências de objetos.
 
 - StatementsService
   * [x] Deve entender o uso de conditional statements no Javascript e seus respectivos retornos em diferentes cenários.

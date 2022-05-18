@@ -8,11 +8,7 @@ class ReferencesService {
   }
 
   getCounterWithoutDeepCopyingReferences(object) {
-    const newObject = {};
-    const keys = Object.keys(object);
-    for (const key of keys) {
-      newObject[key] = Object.create(object[key]);
-    }
+    const newObject = JSON.parse(JSON.stringify(object));
     return newObject;
   }
 }

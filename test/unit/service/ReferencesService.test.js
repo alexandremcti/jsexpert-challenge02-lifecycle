@@ -4,7 +4,7 @@ const { expect } = require('chai');
 
 const ReferencesService = require('../../../src/service/ReferencesService');
 
-describe.only('ReferencesService Suite Tests', () => {
+describe('ReferencesService Suite Tests', () => {
   let service = {};
 
   before(() => {
