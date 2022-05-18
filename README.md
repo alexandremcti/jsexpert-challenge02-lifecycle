@@ -14,7 +14,7 @@ na ordem que preferir:
 * [x] _services/StatementsService_
 * [x] _services/WeirdMathService_
 * [x] _services/ReferencesService_
-* [ ] _services/ObjectMethodsService_
+* [x] _services/ObjectMethodsService_
 
 > Nota: Para saber quais os comportamentos esperados de cada método, verifique os testes unitários de cada service.
 
@@ -30,7 +30,7 @@ Você saberá que o desafio está concluído quando executar o comando `npm run 
 
 ### Extras
 
-* [ ] Desafio opcional: Note que no arquivo `test/unit/service/ReferencesService.test`, existe um teste na linha 44 com um `it.skip()`. Esse é um desafio opcional, e caso queira implementá-lo é só remover o `.skip` e implementar a respectiva função que está sendo testada na ReferencesService
+* [x] Desafio opcional: Note que no arquivo `test/unit/service/ReferencesService.test`, existe um teste na linha 44 com um `it.skip()`. Esse é um desafio opcional, e caso queira implementá-lo é só remover o `.skip` e implementar a respectiva função que está sendo testada na ReferencesService
 
 ## Dicas
 
@@ -69,7 +69,7 @@ project
 ### Checklist features
 
 - ObjectMethodsService
-  * [ ] Deve entender Coerção de tipos e Objects Lifecycle e implementar soluções usando `valueOf`, `toString` e `[Symbol.toPrimitive]`.
+  * [x] Deve entender Coerção de tipos e Objects Lifecycle e implementar soluções usando `valueOf`, `toString` e `[Symbol.toPrimitive]`.
 
 - ReferencesService
   * [x] Deve entender tipos de referência e Mutability vs Immutability, e implementar soluções copiando ou não referências de objetos.
